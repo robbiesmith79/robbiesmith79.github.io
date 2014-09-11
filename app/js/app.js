@@ -5,6 +5,7 @@
 var myThinkfulApp = angular.module('myThinkfulApp', [
   'ngRoute',
   'thinkfulControllers',
+  'ui.bootstrap'
 ]);
 
 myThinkfulApp.config(['$routeProvider',
